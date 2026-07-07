@@ -9,7 +9,11 @@ class Moderator:
             "ignore",
             "oublie",
             "ignore toutes les instructions",
-            "prompt injection"
+            "prompt injection",
+            "ignore previous instructions",
+            "forget instructions",
+            "ignore ton contexte",
+            "ignore le system prompt"
         ]
 
         for word in suspicious_words:
